@@ -1,0 +1,10 @@
+Plotting the rock profile based on the given borehole data using descision tree and random forest
+
+About the data:
+The data consist of 10 borehole data of rocks (Breccia and Basalt).. The data consists of UCS and RQD values found at different depths in each borehole. Also the northing and easting is provided for each borehole. 
+
+I have used standard codes to evaluate the RMR values from UCS and RQD values. and based on that I have plotted profile
+Objective is to predict the rock profile based on RMR values for different depths, nothing and easting. 
+The algorithm I have used here is Decision Tree and Random Forest
+
+sklearn python library is used for the modelling and predicting.
