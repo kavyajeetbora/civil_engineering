@@ -1,0 +1,7 @@
+This is a classification rather predicting the property values which is a regression problem.
+ 
+ Here we are given 4 boreholes and soil type at various depth
+ 
+ Objective - is to plot a geological profile based on borehole data.
+ 
+ 
