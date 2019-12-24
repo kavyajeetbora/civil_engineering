@@ -43,4 +43,29 @@ The objective of this test is to determine unconfined compressive strength of in
 
 RMR is a geomechanical classification system for rocks, developed by Z. T. Bieniawski [1] between 1972 and 1973.[1] It combines the most significant geologic parameters of influence and represents them with one overall comprehensive index of rock mass quality, which is used for the design and construction of excavations in rock, such as tunnels, mines, slopes and foundations
 
+![RMR rating table](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/images/RMR%20rating.JPG)
+[more information on RMR](http://www.rockmass.net/files/short_on_RMR-system.pdf)
+
+Based on this rating, we find out the class of rock from very strong/good to highly weathered rocks
+
 More information please go to the link specified for both the properties.
+
+### 4. Prediction using random forest algorithm 
+
+Based on the chainage of the borehole and depth, The RQD, UCS and RMR property of the rock is predicted using random forest algorithm. 
+
+[Here is the code in jupyter notebook format](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/geo_profile_rev_3.ipynb)
+
+#### 4.1 RQD
+![Prediction of RQD](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/images/profile.JPG)
+This becomes very handy in plotting as well as accurate than previous methods like free hand drawing of the profile using CAD software. 
+#### 4.2 UCS
+![Prediction of UCS](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/images/UCS.JPG)
+
+#### 4.3 RMR
+![Prediction of RMR](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/images/RMR.JPG)
+
+### 5. Evaluation of the model
+
+To Evaluate the model, metric [mean square error (MSE)](https://en.wikipedia.org/wiki/Mean_squared_error) was used. The model with lowest MSE was chosen for prediction. 
+Since the data we are having is very less, [K-fold cross validation method](https://machinelearningmastery.com/k-fold-cross-validation/) was used for evaluating the model as well as for hyperparameter tunining of the model. 
