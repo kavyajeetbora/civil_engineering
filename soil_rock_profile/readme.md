@@ -68,4 +68,4 @@ This becomes very handy in plotting as well as accurate than previous methods li
 ### 5. Evaluation of the model
 
 To Evaluate the model, metric [mean square error (MSE)](https://en.wikipedia.org/wiki/Mean_squared_error) was used. The model with lowest MSE was chosen for prediction. 
-Since the data we are having is very less, [K-fold cross validation method](https://machinelearningmastery.com/k-fold-cross-validation/) was used for evaluating the model as well as for hyperparameter tunining of the model. 
+Since the data we are having is very less, [K-fold cross validation method](https://machinelearningmastery.com/k-fold-cross-validation/) was used for evaluating the model as well as for hyperparameter tunining of the model.
