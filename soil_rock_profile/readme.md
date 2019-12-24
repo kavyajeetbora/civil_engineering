@@ -1,4 +1,4 @@
-Predicting the rock properties based on random forest algorithm
+Predicting the rock properties based on borehole chainages and depth of the rock layer using random forest algorithm
 ----
 
 ### 1. Objective
