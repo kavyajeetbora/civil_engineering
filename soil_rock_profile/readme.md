@@ -3,7 +3,7 @@ Predicting the rock properties based on borehole chainages and depth of the rock
 
 ### Abstract
 
-Geotechnical Investigation includes laboratory test of samples and field test. However these test are very expensive and time taking, hence investigation is done at some preferred locations based on the criticality and region of interest at a particular site. Based on these handful of data, geotechnical design parameters are summarized for the entire constrution site and further used for design of foundations, underground structures etc. However there is no clear way of summarizing these design parameters. A rational appoarch is proposed to predict the engineering properties of rock materials using machine learning algorithm. The results are found to be consistent and more reliable.
+Geotechnical Investigation includes laboratory test of samples and field test. However these test are very expensive and time taking, hence investigation is done at some preferred locations based on the criticality and region of interest at a particular site. Based on these handful of data, geotechnical design parameters are summarized for the entire constrution site and further used for design of foundations, underground structures etc. A rational appoarch is proposed to predict the engineering properties of rock materials using machine learning algorithm. The results are found to be consistent and more reliable.
 
 
 ### 1. Objective
