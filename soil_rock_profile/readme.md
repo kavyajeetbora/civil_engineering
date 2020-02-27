@@ -1,5 +1,10 @@
-Predicting the rock properties based on borehole chainages and depth of the rock layer using random forest algorithm
+Predicting the rock properties based on borehole chainages and depth of the rock layer using machine learning algorithm
 ----
+
+### Abstract
+
+Geotechnical Investigation includes laboratory test of samples and field test. However these test are very expensive and time taking, hence investigation is done at some preferred locations based on the criticality and region of interest at a particular site. Based on these handful of data, geotechnical design parameters are summarized for the entire constrution site and further used for design of foundations, underground structures etc. However there is no clear way of summarizing these design parameters. A rational appoarch is proposed to predict the engineering properties of rock materials using machine learning algorithm. The results are found to be consistent and more reliable.
+
 
 ### 1. Objective
 
@@ -7,7 +12,7 @@ The aim of this experiment is to predict the rock properties like RQD, UCS and R
 
 ### 2. Dataset
 
-10 Borehole data | each borhole is of 30m depth and consisting of data
+10 Borehole data | each borhole is of 30m depth and consisting of factual data like UCS (Compressive Strength) and RQD (Rock Quality)
 This is how the table looks like - 
 
 | Borehole|Depth (m)|Chainage (m)|UCS (MPa)|RQD (%)|
@@ -22,8 +27,9 @@ Here we have to predict the UCS, RQD and the RMR value based on the chainage and
 2. RQD is rock quality designation in percentage
 3. RMR is rock mass rating
 
-### 3. Brief introduction on RQD, UCS and RMR:
+### 3. Brief introduction on RQD, UCS and RMR: (You can skip this section, if you already know these terms)
 
+This section explains a brief introduction 
 #### 3.1 [Rock Quality Designation (RQD)](https://theconstructor.org/geotechnical/rqd-rock-quality-designation-calculation/20536/)
 
 Rock Quality Designation (RQD) is a measure of quality of rock core taken from a borehole. RQD signifies the degree of jointing or fracture in a **rock mass** measured in percentage, where RQD of 75% or more shows good quality hard rock and less than 50% show low quality weathered rocks
@@ -65,7 +71,14 @@ This becomes very handy in plotting as well as accurate than previous methods li
 #### 4.3 RMR
 ![Prediction of RMR](https://github.com/kavyajeetbora/civil_engineering/blob/master/soil_rock_profile/images/RMR.JPG)
 
-### 5. Evaluation of the model
+### 5. Features and application of this model - 
+- Automates the taks of plotting the geotechnical profile 
+- Better results than conventional method of drawing a profile i.e. manual plotting using CAD software.
+- This can be a handy tool to quickly plot the profile by directly feeding the borehole data in csv format
+- Can be used to predict any egineering properties like compressive strenth and RQD based on its chainage and depth.
+- This can further help in design of foundations, like for example  determining the shaft capacity of piles in rocks (which depends upon the UCS value of rock)
+
+### 6. *Evaluation of the model (optional)*
 
 To Evaluate the model, metric [mean square error (MSE)](https://en.wikipedia.org/wiki/Mean_squared_error) was used. The model with lowest MSE was chosen for prediction. 
-Since the data we are having is very less, [K-fold cross validation method](https://machinelearningmastery.com/k-fold-cross-validation/) was used for evaluating the model as well as for hyperparameter tunining of the model.
+Since the data we are having is very less, [K-fold cross validation method](https://machinelearningmastery.com/k-fold-cross-validation/) was used for hyperparameter tunining of the model.
