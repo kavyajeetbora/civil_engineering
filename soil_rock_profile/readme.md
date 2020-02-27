@@ -29,7 +29,6 @@ Here we have to predict the UCS, RQD and the RMR value based on the chainage and
 
 ### 3. Brief introduction on RQD, UCS and RMR: (You can skip this section, if you already know these terms)
 
-This section explains a brief introduction 
 #### 3.1 [Rock Quality Designation (RQD)](https://theconstructor.org/geotechnical/rqd-rock-quality-designation-calculation/20536/)
 
 Rock Quality Designation (RQD) is a measure of quality of rock core taken from a borehole. RQD signifies the degree of jointing or fracture in a **rock mass** measured in percentage, where RQD of 75% or more shows good quality hard rock and less than 50% show low quality weathered rocks
