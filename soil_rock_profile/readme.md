@@ -74,7 +74,7 @@ This becomes very handy in plotting as well as accurate than previous methods li
 - Automates the taks of plotting the geotechnical profile 
 - Better results than conventional method of drawing a profile i.e. manual plotting using CAD software.
 - This can be a handy tool to quickly plot the profile by directly feeding the borehole data in csv format
-- Can be used to predict any egineering properties like compressive strenth and RQD based on its chainage and depth.
+- Can be used to predict any engineering properties like compressive strenth and RQD based on its chainage and depth.
 - This can further help in design of foundations, like for example  determining the shaft capacity of piles in rocks (which depends upon the UCS value of rock)
 
 ### 6. *Evaluation of the model (optional)*
