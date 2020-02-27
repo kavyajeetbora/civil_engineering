@@ -56,7 +56,7 @@ Based on this rating, we find out the class of rock from very strong/good to hig
 
 More information please go to the link specified for both the properties.
 
-### 4. Prediction using random forest algorithm 
+### 4. Results
 
 Based on the chainage of the borehole and depth, The RQD, UCS and RMR property of the rock is predicted using random forest algorithm. 
 
