@@ -7,8 +7,7 @@ This program allows to model all the piles are once in a single file allowing to
 Here is a short presentation on how this automation process works:
 
 1. First the script takes input of a excel file containing all the pile lateral stiffness values as shown below: 
-
-![alt text](pile_lateral_stiffness_input.png)
+<img src="https://raw.githubusercontent.com/kavyajeetbora/civil_engineering/master/pile_lateral_capacity/pile_lateral_stiffness_input.png" width="800" />
 
 2. Then program returns the STAAAD script that includes from modelling the piles to performing the analysis: 
 ```
