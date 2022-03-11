@@ -8,6 +8,8 @@ Here is a short presentation on how this automation process works:
 
 1. First the script takes input of a excel file containing all the pile lateral stiffness values as shown below: 
 
+![]("https://raw.githubusercontent.com/kavyajeetbora/civil_engineering/master/pile%20lateral%20capacity/pile_lateral_stiffness_input.png)
+
 2. Then program returns the STAAAD script that includes from modelling the piles to performing the analysis: 
 ```
 STAAD SPACE
