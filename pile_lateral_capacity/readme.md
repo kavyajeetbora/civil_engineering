@@ -38,3 +38,6 @@ FINISH
 ## Summary of the program
 - Models multiple piles with specified lateral stiffeness values at each depth of each pile with applied 5mm deflection at each pile/scoket
 - Calculates the pile lateral capacity at once.
+
+
+[**Run the code on google colab**](https://colab.research.google.com/github/kavyajeetbora/civil_engineering/blob/master/pile_lateral_capacity/Lateral_Capacity_v6.ipynb)
